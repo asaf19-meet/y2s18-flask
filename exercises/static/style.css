@@ -1,2 +1,7 @@
 /* Put your CSS Styling here! */
 body{background-color:blue}
+header{
+	padding: 10px; 
+	margin: 20px;
+	border: 5px dashed green;
+}

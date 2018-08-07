@@ -7,7 +7,23 @@
 
 </head>
 <body>
-	<h1>judo</h1>
-	<p>it amazing and demand a lot os skiils</p>
+	<header>
+		<h1>Best Sport In The World</h1>
+	</header>
+	<div class = "content">
+	<h2>judo</h2>
+	<p>it amazing and demand a lot os skills</p>
+	</div>
+
+	<div class = "list">
+	{%if likes_same_sport == True%}
+	<ul>
+	{%for player in fav_players%}
+	<li>{{player}}</li>
+	{%endfor%}
+	</ul>
+	{%endif%}
+	</div>
+	<img src="https://images.olympicchannel.com/media/images/stills/none/None/12486ca18da9c4d0fe3f22698e61dc23.jpg" width="300" height="200" alt="judo knockout!!" >
 </body>
 </html>
